@@ -18,7 +18,7 @@ public class Update {
 		em.getTransaction().begin();
 		Customer customer1 = new Customer();
 		customer1.setId(1L);
-		customer1.setFirstName("Ana");
+		customer1.setFirstName("David");
 		customer1.setLastName("Buitrago");
 		customer1.setBirthDay(LocalDate.now());
 		customer1.setStatus(CustomerStatus.ACTIVE);
